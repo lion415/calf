@@ -1,0 +1,37 @@
+
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.cp: DEBUG
+    com.wanda.fuyao.calf.wx: INFO
+    me.chanjar.weixin: DEBUG
+wechat:
+  miniapp:
+    configs:
+      - appid: wx2100e9360b75306c
+        secret: 0d84e23c11c63bdd17e80cb5a7b9eb25
+        token: fuyaoWXlionMA001
+        aesKey: 321321
+        msgDataFormat: JSON
+  cp:
+    corpId: wxc625758e50b5ced1
+    appConfigs:
+      - agentId: 1000045
+        secret: GG0tITC5_hh-wiotfQkxt7eQV0Sgr6r0RbaUhz0JKXM
+        token: fuyaoWXlionCP001
+        aesKey: dO9XdAweP5yFC9CS5RgETcITHOiOktkvGf8O4YHGBcg
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@192.168.2.5:1521/fyam
+    username: fyam
+    password: Fuyao2022
+  redis:
+    host: 192.168.2.5
+    password: 123456
+    port: 6379
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
