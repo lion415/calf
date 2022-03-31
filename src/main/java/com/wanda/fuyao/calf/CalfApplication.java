@@ -22,8 +22,6 @@ public class CalfApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext applicationContext = SpringApplication.run(CalfApplication.class, args);
-        System.out.println("----------------");
-
 
     }
 
