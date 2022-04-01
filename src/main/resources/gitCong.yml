@@ -1,0 +1,6 @@
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.cp: DEBUG
+    com.wanda.fuyao.calf.wx: INFO
+    me.chanjar.weixin: DEBUG
